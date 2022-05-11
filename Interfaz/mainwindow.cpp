@@ -189,7 +189,7 @@ void MainWindow::mouseMoveEvent(QMouseEvent *event)
             HEXvec[PosX][PosY] = HEXColor;
             //QPoint point(PosX, PosY);
             //this->puntos.push_back(point);
-            update();
+            //update();
         }
     }
     if(borrador){
@@ -201,9 +201,10 @@ void MainWindow::mouseMoveEvent(QMouseEvent *event)
 
             //QPoint point(PosX, PosY);
             //this->puntos.push_back(point);
-            update();
+            //update();
         }
     }
+    update();
 }
 
 //# ----------------------------------------- Apartado de Botones ---------------------------
